@@ -2,6 +2,8 @@
 
 - Link: https://cursos.alura.com.br/course/microsservicos-implementando-java-spring
 
+
+## Conteúdo
 Este curso faz parte da formação "Aprofunde em Java com arquitetura de Microsserviços, Spring e RabbitMQ" da Alura.   
 Nele, foram vistos os seguintes temas:
 
@@ -25,6 +27,33 @@ Nele, foram vistos os seguintes temas:
 
 Dentro do diretório "microservices-java-spring-curso1", se encontram todos os serviços de pagamentos, pedidos, gateway e server (Eureka).
 
-Pontos importantes:
+## Pontos importantes
+
 - Eureka: configurado na porta 8081
 - Gateway: configurado na porta 8082
+
+## Como executar a aplicação?
+
+- Executar os serviços:
+  - server;
+  - gateway;
+  - pagamentos;
+  - pedidos.   
+  OBS: podem ser executados via IntelliJ, executando os métodos main das classes Application ou rodando o seguinte comando no terminal (Linux) de cada pasta de projeto:
+  ```
+  java -jar target/${nome-arquivo-jar}.jar
+  ```
+- Para acessar o Eureka (service discovery), digitar no navegador: 
+  ```
+  http://localhost:8081
+  ```
+- Para realizar as requisições para as APIs, utilizar o Gateway que está configuruado na porta 8082. Por exemplo: 
+  ```
+  http://localhost:8082/${spring.application.name}/${path}
+  ```
+  Exemplo:
+  ```
+  GET http://localhost:8082/pagamentos-ms/pagamentos
+  ```
+
+- Na pasta "requisicoes-insomnia", estão as requisições utilizando o Insomnia.
