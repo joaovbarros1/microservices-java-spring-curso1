@@ -24,3 +24,7 @@ Nele, foram vistos os seguintes temas:
   - Resiliência: circuit breaker e fallback.
 
 Dentro do diretório "microservices-java-spring-curso1", se encontram todos os serviços de pagamentos, pedidos, gateway e server (Eureka).
+
+Pontos importantes:
+- Eureka: configurado na porta 8081
+- Gateway: configurado na porta 8082
