@@ -12,7 +12,7 @@ Nele, foram vistos os seguintes temas:
   - Preparação do ambiente;
   - Estratégia de decomposição de um monolito em microsserviços.
 - **Caítulos 2 e 3: Colocando a mão na massa**
-  - Implementação dos microsserviços de Pagamentos e Pedidos com Java e Spring Boot (config, controller, dtos, models, repository, service, migrations, etc.);
+  - Implementação dos microsserviços de Pagamentos e Pedidos com Java e Spring Boot (config, controller, dtos, models, repository, service, migrations, banco MySQL, etc.);
   - Testes no Postman;
 - **Capítulo 4: Serviço de descoberta**
   - Conceitos de service discovery e registry;
@@ -57,3 +57,5 @@ Dentro do diretório "microservices-java-spring-curso1", se encontram todos os s
   ```
 
 - Na pasta "requisicoes-insomnia", estão as requisições utilizando o Insomnia.
+
+OBS: Não se esqueça de configurar as credenciais de acesso do banco de dados MySQL utilizado nos serviços de pagamentos e pedidos.
