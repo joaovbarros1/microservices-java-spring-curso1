@@ -2,7 +2,6 @@
 
 - Link: https://cursos.alura.com.br/course/microsservicos-implementando-java-spring
 
-
 ## Conteúdo
 Este curso faz parte da formação "Aprofunde em Java com arquitetura de Microsserviços, Spring e RabbitMQ" da Alura.   
 Nele, foram vistos os seguintes temas:
@@ -26,6 +25,8 @@ Nele, foram vistos os seguintes temas:
   - Resiliência: circuit breaker e fallback.
 
 Dentro do diretório "microservices-java-spring-curso1", se encontram todos os serviços de pagamentos, pedidos, gateway e server (Eureka).
+
+OBS: Em anexo, temos um pdf chamado "Java e Microsservicos" com todas as anotações do curso e de cursos anteriores sobre conceitos e padrões de Microsserviços.
 
 ## Pontos importantes
 
