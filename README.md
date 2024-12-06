@@ -3,7 +3,7 @@
 - Link: https://cursos.alura.com.br/course/microsservicos-implementando-java-spring
 
 ## Conteúdo
-Este curso faz parte da formação "Aprofunde em Java com arquitetura de Microsserviços, Spring e RabbitMQ" da Alura.   
+Este curso faz parte da formação <a href="https://www.alura.com.br/formacao-java-microsservicos" target="_blank">Aprofunde em Java com arquitetura de Microsserviços, Spring e RabbitMQ</a> da Alura.   
 Nele, foram vistos os seguintes temas:
 
 - **Capítulo 1: Considerações Inicias**
@@ -67,7 +67,7 @@ OBS: Não se esqueça de configurar as credenciais de acesso do banco de dados M
 - Link: https://cursos.alura.com.br/course/microsservicos-pratica-iac-cdk-deploy-aws
 
 ## Conteúdo
-Este curso faz parte da formação "Aprofunde em Java com arquitetura de Microsserviços, Spring e RabbitMQ" da Alura.   
+Este curso faz parte da formação <a href="https://www.alura.com.br/formacao-java-microsservicos" target="_blank">Aprofunde em Java com arquitetura de Microsserviços, Spring e RabbitMQ</a> da Alura.   
 Nele, foram vistos os seguintes temas:
 
 - **Capítulo 1: Projeto inicial e containers**
