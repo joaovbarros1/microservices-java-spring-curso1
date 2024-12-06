@@ -73,7 +73,7 @@ Nele, foram vistos os seguintes temas:
 - **Capítulo 1: Projeto inicial e containers**
   - Overview sobre microsserviços e Docker;
   - Utilização do banco MySQL com Docker;
-  - Geração da imagem da aplicação de pedidos.
+  - Geração da imagem da aplicação de pedidos (Dockerfile).
 - **Caítulos 2: Partindo para a Cloud**
   - Configuração da conta na AWS;
   - Apresentação do CDK e configuração até o bootstrapping;
