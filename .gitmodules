@@ -1,0 +1,3 @@
+[submodule "alura-aws-infra"]
+	path = alura-aws-infra
+	url = https://github.com/joaovbarros1/alura-aws-infra
