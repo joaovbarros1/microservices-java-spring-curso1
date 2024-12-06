@@ -100,3 +100,4 @@ Dentro do diretório "microservices-java-spring-curso1", se encontram todos os s
 ## Pontos importantes
 
 - A principal mudança do curso anterior consiste na subida do microsserviço de pedidos para a AWS e na criação de um projeto CDK para deploy dos recursos na AWS.
+- Acesse o projeto CDK: <a href="https://github.com/joaovbarros1/alura-aws-infra" target="_blank">alura-aws-infra</a>.
