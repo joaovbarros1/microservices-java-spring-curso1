@@ -3,6 +3,8 @@ package br.com.alurafood.pagamentos.controller;
 import br.com.alurafood.pagamentos.dto.PagamentoDto;
 import br.com.alurafood.pagamentos.service.PagamentoService;
 import io.github.resilience4j.circuitbreaker.annotation.CircuitBreaker;
+import org.springframework.amqp.core.Message;
+import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -22,6 +24,9 @@ public class PagamentoController {
     @Autowired
     private PagamentoService service;
 
+    @Autowired
+    private RabbitTemplate rabbitTemplate;
+
     @GetMapping
     public Page<PagamentoDto> listar(@PageableDefault(size = 10)Pageable paginacao) {
         return service.obterTodos(paginacao);
@@ -40,6 +45,7 @@ public class PagamentoController {
 
         URI endereco = uriBuilder.path("/pagamentos/{id}").buildAndExpand(dto.getId()).toUri();
 
+        rabbitTemplate.convertAndSend("pagamentos.ex","", dto);
         return ResponseEntity.created(endereco).body(dto);
     }
 
